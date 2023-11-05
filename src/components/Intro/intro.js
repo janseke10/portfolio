@@ -27,13 +27,13 @@ const Intro = ( {setScrollYProgress} ) => {
       <section id='intro' className='scroller'>
         <div ref={introRef} className=''>
             <div className='welcomeDiv'>
-              <motion.img src={welcome} className='welcomeText' style={{ rotate: 0, opacity: opacityPortfolio}} />
+              <motion.img src={welcome} className='welcomeText' style={{y:'-5vw', x: '4vw', rotate: 0, opacity: opacityPortfolio}} />
+              <motion.img src={portfolio} className='portfolioText' style={{y: '4vw', x:'-18vw', opacity: opacityPortfolio, rotate:0 }} />
             </div>
           <figure className="progress">
             <motion.img src={bikeframe} className='bikeframe' style={{y: '-6vw', x:`${xPosBikeFrame.current}vw`, rotate: 0, opacity: opacityBike}}  />
             <motion.img src={wheel} className='wheel' style={{y:'-1vw', x: `${xPosAnim.current}vw`, rotate: xPosAnim }}/>
             <motion.img src={wheel} className='wheel' style={{y:'-1vw', x: `${xPosAnim2.current}vw`, rotate: xPosAnim }}/>
-            <motion.img src={portfolio} className='portfolioText' style={{y: '-2vw', x:'-18vw', opacity: opacityPortfolio, rotate:0 }} />
           </figure>
         </div>
     </section>

@@ -38,7 +38,9 @@ const Contact = ({setScrollYProgress}) => {
         <textarea name='message' className='msg' rows='5' placeholder='Your Message' />
         <button className='submitBtn' type='submit' value='Send'>Submit</button>
         <div className='links'>
-          <img className='link' src={linkedin} alt='linkedin' />
+          {/* <a href='https://www.linkedin.com/in/janneke-van-hulten-b7a4a7190/' target="_blank" rel="noreferrer"> */}
+            <img className='link' src={linkedin} alt='linkedin' />
+          {/* </a> */}
           <img className='link' src={github} alt='github' />
         </div>
       </form>
