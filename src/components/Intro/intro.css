@@ -1,0 +1,81 @@
+#intro {
+    width: 100vw;
+    height: calc(100vh 4rem);
+    margin: 0 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.introContent {
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    justify-content: center;
+}
+
+  .progress {
+    position: fixed;
+    left: 0vw;
+    top: 50vh;
+    width: 100vw;
+    height: 50vh;
+    /* scroll-snap-align: start;
+    scroll-snap-stop: always; */
+  }
+
+  .y.mandatory-scroll-snapping {
+    scroll-snap-type: y mandatory;
+  }
+
+  .always-stop > div {
+    scroll-snap-stop: always;
+  }
+  
+  section {
+    width: 100vw;
+    height: 150vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scroller {
+    scroll-snap-type: y mandatory;
+    scroll-margin-top: 20vh;
+  }
+
+  .wheel {
+    width: 10vw;
+  }
+
+  .bikeframe {
+    width: 20vw;
+  }
+
+  .portfolioText {
+    width: 45vw;
+  }
+
+  .welcomeText {
+    width: 40vw;
+    z-index: -1;
+  }
+
+  .welcomeDiv {
+    position: fixed;
+    left: 15vw;
+    top: 45vh;
+
+  }
+
+  /* @media screen and (max-width: 450px) {
+    .progress {
+      left: 50%
+    } */
+/* } */
+
+
+  
+  

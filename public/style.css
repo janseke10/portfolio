@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    text-decoration: none;
+    background: transparent;
+}
+
+body {
+    background: #F5F5F5;
+    color: black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Julius Sans One', sans-serif;
+    /* width: 100%; */
+}

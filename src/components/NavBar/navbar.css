@@ -1,0 +1,105 @@
+.navbar {
+    position: sticky;
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    z-index: 3;
+    background-color: #F5F5F5;
+}
+
+.logo {
+     object-fit: cover;
+     height: 3rem;
+     width: 6rem;
+     margin-top: 1rem;
+}
+
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+    color: #385745;
+}
+
+.desktopMenuListItem:hover {
+    color: #CD5C08;
+}
+
+.desktopMenuIcon {
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+}
+
+.desktopMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desktopMenuBtn {
+    border: none;
+    background: #385745;
+    color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+}
+
+.desktopMenuBtn:hover {
+    background: #CD5C08;
+}
+
+.active {
+    color: #CD5C08;
+}
+
+.navMenu {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: #385745;
+    border-radius: 1rem;
+}
+
+.listItem {
+    color: #F5F5F5;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    
+}
+
+.mobMenu {
+    display: none;
+    object-fit: cover;
+    height: 1.8rem;
+} 
+
+
+@media screen and (max-width: 720px) {
+    .mobMenu {
+        display: flex;  
+    }
+    .desktopMenu{
+        display: none;
+    }
+    .desktopMenuBtn {
+        display: none;
+    }
+    
+}
+
